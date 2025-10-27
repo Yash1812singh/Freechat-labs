@@ -1,36 +1,57 @@
-# ---- Python ----
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+*.so
 
-# ---- Virtual environment ----
+# Virtual environment
 venv/
-.env/
 env/
-ENV/
-.venv/
+
+# Environment variables
+.env
 *.env
 
-# ---- Django specific ----
+# Django
 db.sqlite3
-*.log
+/media/
 staticfiles/
-media/
-static/
-local_settings.py
 
-# ---- IDE / Editor ----
+# Logs
+*.log
+
+# IDEs and editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# ---- OS / System files ----
-.DS_Store
-Thumbs.db
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
 
-# ---- Test / Coverage ----
-.coverage
+# macOS system files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# Unit test and coverage
 htmlcov/
-.tox/
-pytest_cache/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Migrations (optional — only if you don’t want them tracked)
+# */migrations/
+
+# Compiled files and caches
+*.egg-info/
+dist/
+build/
