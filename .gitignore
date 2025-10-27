@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environment ----
+venv/
+.env/
+env/
+ENV/
+.venv/
+*.env
+
+# ---- Django specific ----
+db.sqlite3
+*.log
+staticfiles/
+media/
+static/
+local_settings.py
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS / System files ----
+.DS_Store
+Thumbs.db
+
+# ---- Test / Coverage ----
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
