@@ -35,7 +35,6 @@ class ChatbotAPIView(APIView):
 
         try:
             response_data = response.json()
-            print("🔍 Groq raw response:", response.text)
             ai_reply = response_data["choices"][0]["message"]["content"]
             return Response({"reply": ai_reply})
         except Exception as e:
