@@ -15,7 +15,7 @@ charset-normalizer==3.4.4
 coloredlogs==15.0.1
 constantly==23.10.4
 cryptography==46.0.3
-ctranslate2==4.5.0
+ctranslate2
 daphne==4.1.2
 dj-database-url==3.0.1
 Django==4.2.25
