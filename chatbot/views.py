@@ -2,7 +2,6 @@ import os
 import tempfile
 import subprocess
 import requests
-import speech_recognition as sr
 
 from django.conf import settings
 from rest_framework.views import APIView
