@@ -150,7 +150,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 import dj_database_url
 
 # Parse database configuration from DATABASE_URL (Render provides it)
@@ -167,3 +166,4 @@ MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
 
 # Allowed hosts
 ALLOWED_HOSTS = ['*']  # or ['your-app-name.onrender.com']
+
